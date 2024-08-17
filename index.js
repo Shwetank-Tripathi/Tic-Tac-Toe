@@ -1,3 +1,5 @@
+alert("Two player game , Don't Try Alone ☠️")
+
 const board = document.querySelector("#board");
 const statusDisplay = document.querySelector("#status");
 let gameActive = true;
