@@ -58,13 +58,13 @@ h1{
     padding: 10px 20px;
     border-radius: 10px;
     border-style: none;
-    background-color: rgb(165, 37, 37);
+    background-color: rgb(211, 11, 11);
     font-size: 1.2rem;
     cursor: pointer;
     font-weight: bold;
 
     &:hover{
-        background-color: rgb(182, 5, 70);
+        background-color: rgba(182, 5, 70,0.2);
         color: black;
     }
 }
