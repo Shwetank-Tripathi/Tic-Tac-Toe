@@ -1,15 +1,17 @@
 body{
-    color: rgb(32, 3, 119);
+    color: rgb(255, 255, 255);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-    background: url(./extras/background_image.jpg);
+    /* background: url(./extras/background_image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px); */
+
+    background-color: black;
 }
 
 h1{
@@ -27,6 +29,7 @@ h1{
 }
 
 .cell{
+    background-color: rgba(32,3,119);
     margin-bottom: 5px;
     display: flex;
     justify-content: center;
@@ -36,7 +39,8 @@ h1{
     height: 100px;
     width: 100px;
     color: red;
-    border:2px solid rgb(0, 0, 0)
+    border:2px solid rgb(0, 0, 0);
+    border-radius: 5px;
 }
 
 .cell:hover{
@@ -60,7 +64,7 @@ h1{
     font-weight: bold;
 
     &:hover{
-        background-color: rgba(32,3,119);
-        color: red;
+        background-color: rgb(182, 5, 70);
+        color: black;
     }
 }
